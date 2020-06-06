@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Godrej Frontier",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "sector -80, Gurgaon",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "www.rahulshettyacadamy.com",
+    "language": "English",
+    "location": {
+        "lat": -30.232323,
+        "lng": 30.12121
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 04 Jun 2020 20:35:07 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "b6420d7bbed9ae81d26b07cc2d31f637",
+    "scope": "APP",
+    "reference": "02c2fe61f407fa9419a49fe851f696db02c2fe61f407fa9419a49fe851f696db",
+    "id": "02c2fe61f407fa9419a49fe851f696db"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=b6420d7bbed9ae81d26b07cc2d31f637
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=b6420d7bbed9ae81d26b07cc2d31f637
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 04 Jun 2020 20:35:08 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 255
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-30.232323",
+        "longitude": "30.12121"
+    },
+    "accuracy": "50",
+    "name": "Godrej Frontier",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "sector -80, Gurgaon",
+    "types": "shoe park,shop",
+    "website": "www.rahulshettyacadamy.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "b6420d7bbed9ae81d26b07cc2d31f637"
+}
+HTTP/1.1 200 OK
+Date: Thu, 04 Jun 2020 20:35:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
